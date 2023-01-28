@@ -11,8 +11,14 @@ function Rating() {
   }
 
   function Star(props: any) {
-    return (
-        <span><b>star </b></span>
-    )
+    if (props.selected === true) {
+      return (
+        <span><b>star </b></span>)
+    } else {
+      return (
+        <span>star </span>)
+      
+    }
+    
   }
   export default Rating;

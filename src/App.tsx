@@ -8,14 +8,11 @@ import Rating from './components/Rating/Rating';
 function App() {
   return (
     <div>
-      
-      <input />
-      <input type="date" />
-
+    
        <AppTitle /> 
        <Rating /> 
        <Accordion /> 
-      
+       <Rating />
     </div>
   );
 }
