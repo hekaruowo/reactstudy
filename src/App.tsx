@@ -28,6 +28,9 @@ function AppTitle() {
   )
 }
 
+function sum(a: number, b: number) {
+  return a + b;
+}
 
 
 
