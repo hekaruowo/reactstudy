@@ -10,11 +10,20 @@ function App() {
     <div>
     
        <AppTitle /> 
+       <Accordion title={"Меню"}/>
+       <Accordion title={"Не Меню"}/>
        Article 1
        <Rating value={3} /> 
-       <Accordion />
        Article 2 
        <Rating value={2} />
+       Article 3
+       <Rating value={1} />
+       Article 4 
+       <Rating value={4} />
+       Article 5 
+       <Rating value={5} />
+       Article 6 
+       <Rating value={6} />
     </div>
   );
 }
