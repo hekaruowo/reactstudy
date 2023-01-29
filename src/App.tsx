@@ -10,18 +10,20 @@ function App() {
     <div>
     
        <AppTitle /> 
-       <Rating /> 
-       <Accordion /> 
-       <Rating />
+       Article 1
+       <Rating value={3} /> 
+       <Accordion />
+       Article 2 
+       <Rating value={2} />
     </div>
   );
 }
 
 function AppTitle() {
   return (
-    <> 
+    <div> 
       This is APP component
-    </>
+    </div>
   )
 }
 
